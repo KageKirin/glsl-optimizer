@@ -77,7 +77,8 @@ glslopt_ctx* glslopt_initialize (bool openglES)
 
 void glslopt_cleanup (glslopt_ctx* ctx)
 {
-	delete ctx;
+	if(ctx)
+		delete ctx;
 	_mesa_glsl_release_types();
 	_mesa_glsl_release_functions();
 }
@@ -136,7 +137,7 @@ struct glslopt_shader
 
 static inline void debug_print_ir (const char* name, exec_list* ir, _mesa_glsl_parse_state* state, void* memctx)
 {
-	#if 0
+	#if 1
 	printf("**** %s:\n", name);
 	//_mesa_print_ir (ir, state);
 	char* foobar = _mesa_print_ir_glsl(ir, state, ralloc_strdup(memctx, ""), kPrintGlslFragment);
