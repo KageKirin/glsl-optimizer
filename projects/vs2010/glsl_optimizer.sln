@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glsl_optimizer_lib", "glsl_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glsl_optimizer_tests", "glsl_optimizer_tests.vcxproj", "{BB382242-6EBB-445F-989C-B9BA61D17965}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glsl_optimizer_dll", "glsl_optimizer_dll.vcxproj", "{430427F7-DA4B-4DCF-AD7C-5807CE70B2D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -29,6 +31,14 @@ Global
 		{BB382242-6EBB-445F-989C-B9BA61D17965}.Release|Win32.Build.0 = Release|Win32
 		{BB382242-6EBB-445F-989C-B9BA61D17965}.Release|x64.ActiveCfg = Release|x64
 		{BB382242-6EBB-445F-989C-B9BA61D17965}.Release|x64.Build.0 = Release|x64
+		{430427F7-DA4B-4DCF-AD7C-5807CE70B2D0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{430427F7-DA4B-4DCF-AD7C-5807CE70B2D0}.Debug|Win32.Build.0 = Debug|Win32
+		{430427F7-DA4B-4DCF-AD7C-5807CE70B2D0}.Debug|x64.ActiveCfg = Debug|x64
+		{430427F7-DA4B-4DCF-AD7C-5807CE70B2D0}.Debug|x64.Build.0 = Debug|x64
+		{430427F7-DA4B-4DCF-AD7C-5807CE70B2D0}.Release|Win32.ActiveCfg = Release|Win32
+		{430427F7-DA4B-4DCF-AD7C-5807CE70B2D0}.Release|Win32.Build.0 = Release|Win32
+		{430427F7-DA4B-4DCF-AD7C-5807CE70B2D0}.Release|x64.ActiveCfg = Release|x64
+		{430427F7-DA4B-4DCF-AD7C-5807CE70B2D0}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
